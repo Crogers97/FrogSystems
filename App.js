@@ -1,10 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import React, { Image } from 'react-native';
+import CardItem from './components/CardItem';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+
+      <CardItem />
+      
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +19,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#53b7ec',
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  
+
 });
