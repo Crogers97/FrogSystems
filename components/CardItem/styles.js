@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
         marginLeft: '22.5%',
 
     },
+    
 
 
 });

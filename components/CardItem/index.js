@@ -1,6 +1,8 @@
 import React from 'react';
 import {Text, View, Image} from 'react-native';
+import Button from '../Button';
 import styles from './styles';
+import SocialMedia from '../SocialMedia';
 
 const CardItem = (props) => {
     return (
@@ -15,6 +17,10 @@ const CardItem = (props) => {
                 <Text style={styles.job}>Junior Software Developer</Text>
                 <Text style={styles.company}>Frog Systems</Text>
             </View>
+
+            <SocialMedia/>
+
+        <Button/>
 
         </View>
     );
